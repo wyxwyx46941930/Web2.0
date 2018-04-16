@@ -1,0 +1,114 @@
+			@-webkit-keyframes flash {
+   		 		0%{
+        			opacity: 0;
+    			}
+    			50%{
+        			opacity: 1;
+        			color: pink;
+        			font-size: 18px;
+    			}
+    			100%{
+        			opacity: 0;
+    			}
+			}
+			@keyframes flash {
+    			0%{
+        			opacity: 0;
+    			}
+    			50%{
+        			opacity: 1;
+        			color: pink;
+        			font-size: 25px;
+    			}
+    			100%{
+       				opacity: 0;
+    			}
+			}
+			.flash{
+    				position: relative;
+    				top: 10px;
+    				left: 10px;	
+    				color: #0000ff;
+   	 				-webkit-animation:flash 1.5s infinite  cubic-bezier(1,0,0.5,0) ;
+   	 				animation:flash 1.5s infinite  cubic-bezier(1,0,0.5,0) ;
+   	 				text-align: center ;
+			}
+			footer {
+  				margin-top: 210pt;
+			}
+			footer img {
+ 				 border: 0;
+			}
+			footer a {
+  				 text-decoration: none;
+			}
+			footer
+			{
+				position: absolute; 
+				right: 0 ;
+			}
+			body {
+
+  					color: #404040;
+  					font-size: 11pt;
+  					font-family: Georgia, Garamond, serif;
+  					background-image:url("./photo.jpg");
+  					background-size: 100% 170% ;
+  					background-repeat: no-repeat; 
+			}
+			.first
+			{
+				font-size: 20px ;
+				font-family: "楷体";
+				height: 50px;
+				margin: 10px 10px 0px 10px;
+				color:  #2828FF;
+				left:20px ;
+			}
+			.set
+			{       
+					border-top : 500px ; 	
+					height: 150px ; 
+                    text-align:center; 
+				  	font-family: Century Gothic, Futura, Verdana, sans-serif ;
+				  	font-size: 14 ;
+				  	font-weight: normal ;
+				  	color: pink ;
+				  	/*text-decoration: underline ;*/
+			}
+			.bit
+			{
+				 	text-align: right ;
+			}
+			.cat
+			{
+				font-size:  25px ;
+				font-style: sans-serif ;
+				font-weight: bold ;
+			}
+			nav
+			{
+				underline: none ;
+			}
+			.Time
+			{
+				text-align: right ;
+				font-size:  25px ;
+				font-style: sans-serif ;
+				font-weight: bold ;
+				color: 	red；
+			}
+
+			a:hover
+			{
+				color:red ;
+			}
+			a:active
+			{
+				color:gray;
+			}
+			a
+			{
+				text-decoration: none ;
+			}
+			

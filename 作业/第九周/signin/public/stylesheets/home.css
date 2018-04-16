@@ -1,0 +1,11 @@
+body 
+{
+    font-family:sans-serif;
+    background-image: url("../images/1.jpg");
+    position: relative;
+    left: -650px  ;
+    top:50px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign up</title>
+        <link rel="stylesheet" href="signup_css.css">
+        <script src="jquery.js"></script>
+        <script type="text/javascript">
+            var exports = {};
+        </script>
+        <script src="node_modules/checkerror.js"></script>
+        <script src="signup.js"></script>
+    </head>
+    <body>
+        <div id = "show"></div>
+        <h1>用户注册</h1>
+        <form action="./" method="post">
+            <div class="input-item">
+                <div class="input-title">
+                    <p class="input-name">用户名：</p><p id="username-err-label" class="input-error">{usernameErr}</p>
+                </div>
+                <div class="input-box"><input name="username" type="text" title="用户名" value="{username}"></div>
+            </div>
+            <div class="input-item">
+                <div class="input-title">
+                    <p class="input-name">学号：</p><p id="id-err-label" class="input-error">{idErr}</p>
+                </div>
+                <div class="input-box"><input name="id" type="text" title="学号" value="{id}"></div>
+            </div>
+            <div class="input-item">
+                <div class="input-title">
+                    <p class="input-name">电话：</p><p id="tel-err-label" class="input-error">{telErr}</p>
+                </div>
+                <div class="input-box"><input name="tel" type="text" title="电话" value="{tel}"></div>
+            </div>
+            <div class="input-item">
+                <div class="input-title">
+                    <p class="input-name">邮箱：</p><p id="email-err-label" class="input-error">{emailErr}</p>
+                </div>
+                <div class="input-box"><input name="email" type="text" title="邮箱" value="{email}"></div>
+            </div>
+            <div class="submit-box"><input type="submit" value="注册" title="注册"></div>
+            <div class="reset-box"><input type="button" value="重置" title="重置"></div>
+        </form>
+    </body>
+</html>

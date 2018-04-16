@@ -1,0 +1,171 @@
+body
+{
+    margin:  0 ;
+    padding:  0 ;
+    background: repeat url('background.png') ;
+    font-family: Verdana,Tahoma ,sans-serif ;
+    font-size: 8pt ;
+}
+.topBanner
+{
+    background: url('bannerbackground.png') repeat-x ;
+    width: 100% ;
+}
+h1
+{
+    font-family: Tahoma , Verdana , sans-serif ;
+    font-weight: bold ;
+    font-size: 24pt ;
+    text-align: center ;
+}
+#The_whole_body
+{
+   width: 800px ;
+   margin: 0 auto;
+   font-size:  0 ;
+   border:4px gray solid;
+}
+#The_whole_body >*
+{
+    font-size: 8pt ;
+}
+.The_left_content
+{
+    width : 550px ;
+    position: relative; 
+    display: inline-block;
+    right: 250px ;
+    vertical-align: top ; 
+
+}
+.contentBanner {
+    height: 83px;
+    background: repeat-x url('rottenbackground.png');}
+
+.contentBanner img {
+    vertical-align: middle;
+}
+
+.review-total
+{
+    color:white;
+}
+
+.contentBanner .bannerText {
+    position: relative;
+    top: 4px;
+    left: -1px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span.rating {
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+
+    display: inline-block;
+}
+
+.contentBanner + div
+{
+    font-size: 0 ;
+}
+.reviewColumn
+{
+    font-size: 8pt ;
+    display: inline-block;
+    width: 47% ;
+    vertical-align: top ;
+}
+.reviewColumn:first-of-type
+{
+    margin-left: 2% ;
+    margin-right: 1% ;
+}
+
+.reviewColumn:last-of-type
+{
+    margin-left: 1% ;
+    margin-right: 1% ;
+}
+
+.reviewColumn p img
+{
+    float: left ;
+    margin-right: 5px ;
+}
+
+.reviewColumn p:nth-of-type(odd)
+{
+    font-weight: bold;
+    min-height: 25px;
+    border: 2px solid gray;
+    padding: 8px;
+    background: #E1D697;
+}
+.reviewColumn p:nth-of-type(even)
+{
+    min-height: 38px ;
+    margin-bottom: 3em ;
+    font-style: italic; 
+}
+.reviewColumn p:nth-of-type(even)::first-line
+{
+    font-style: normal; 
+}
+
+.The_right_content
+{
+    width: 250px ;
+    position: relative;
+    left:  550px ;
+    display: inline-block; 
+}
+
+.The_right_content_picture
+{
+    background-color: #A2B964;
+}
+
+.info
+{
+   font-family: Arial, sans-serif;
+
+    padding: 10px;
+    margin-top: 0px ;
+    background: #A2B964;
+}
+
+.info dl {
+    position: relative;
+    top: -5pt;
+}
+
+.info dl dt {
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+p.pageIndex {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    background: #A2B964;
+}
+
+.footer {
+
+    position: fixed;
+    right: 0px;
+    bottom: 0px ;
+
+}
+
+
+
+
+
+
+
+

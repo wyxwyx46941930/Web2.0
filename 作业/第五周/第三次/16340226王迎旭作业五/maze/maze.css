@@ -1,0 +1,260 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Century Gothic",sans-serif;
+}
+
+h1, h2 
+{
+    text-align: center;
+    margin: 10px;
+}
+
+h2
+{
+    font-weight: normal;
+}
+
+#screen 
+{
+    height: 45px;
+}
+
+#maze 
+{
+    width: 500px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#bottom 
+{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.wall, .way, .button 
+{
+    display: inline-block;
+    float: left;
+}
+
+.wall 
+{
+    background-color: #eeeeee;
+}
+
+#bottomLeftWall 
+{
+    position: relative;
+    left:-292px;
+    width: 202px;
+    height: 50px;
+    border-left: black 1px solid;
+    border-bottom: black 1px solid;
+}
+
+#bottomMiddleWall 
+{
+    position: relative;
+    top:-51px ;
+    left:203px ;
+    width: 89px;
+    height: 50px;
+    border-bottom: black 1px solid;
+}
+
+#bottomRightWall 
+{
+    position: relative;
+    top:-51px ;
+    left:203px ;
+    width: 200px;
+    height: 50px;
+    border-right: black 1px solid;
+    border-bottom: black 1px solid;
+}
+
+#topLeftWall 
+{
+    width: 149px;
+    height: 50px;
+    border-left: black 1px solid;
+}
+
+#topRightWall 
+{
+    width: 150.5px;
+    height: 50px;
+    border-right: black 1px solid;
+}
+
+#topMiddleWall 
+{
+    width: 192.5px;
+    height: 50px;
+}
+
+#topLeftWall, #topMiddleWall, #topRightWall 
+{
+    border-top: black 1px solid;
+}
+
+#leftTopWall, #rightTopWall 
+{
+    width: 149px;
+    height: 50px;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+}
+
+#rightWall, #leftWall 
+{
+    width: 149px;
+    height: 100px;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    border-bottom: black 1px solid;
+}
+
+#middleTopWall 
+{
+    width: 88px;
+    height: 100px;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+    border-top: black 1px solid;
+}
+
+#middleBottomWall 
+{
+    width: 88px;
+    height: 50px;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+}
+
+#topWay 
+{
+    width: 192px;
+    height: 48px;
+    border-top: black 1px solid;
+}
+
+#leftWay, #rightWay 
+{
+    width: 51px;
+    height: 100px;
+}
+
+#bottomLeftWay, #bottomRightWay 
+{
+    width: 158px;
+    height: 48px;
+    border-bottom: black 1px solid;
+}
+
+.wall
+{
+    cursor: none ;
+}
+
+.button 
+{
+    width: 44px;
+    height: 48px;
+    border-bottom: black 1px solid;
+}
+
+.button p
+{
+    position: relative;
+    bottom: 15px;
+}
+
+#startButton, #endButton 
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: black 1px solid;
+    text-align: center;
+    line-height: 0px;
+    font-family: "Tahoma";
+    font-size: 35px ;
+    font-weight: normal;
+}
+
+#startButton 
+{
+    background-color: #7fff7f;
+    margin: 2px 0px 2px 0px;
+    float: left;
+}
+
+#endButton 
+{
+    background-color: #8583ff;
+    margin: 2px 0px 2px 0px;
+    float: right;
+}
+
+#example 
+{
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px black solid;
+    background-color: #eeeeee;
+}
+
+#bottom p 
+{
+    margin: 15px 0px 15px 0px;
+}
+
+.changed 
+{
+    background-color: red;
+    display: inline-block;
+    float: left;
+}
+
+.wholeLast
+{
+    position: relative;
+    text-align: center ;
+    margin:40px ;
+}
+
+#block
+{
+    margin: 30px ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 25px;
+    background-color: #EEEEEE;
+    border: 1px solid black;
+}
+
+.firstSentence
+{
+    position: relative;
+    left:-390px;
+}
+.secondSentence
+{
+    position: absolute;
+    left: 432px ; 
+}
+.thirdSentence
+{
+    position: absolute;
+    top:80px;
+    left:432px ;
+}

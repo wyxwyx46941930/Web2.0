@@ -1,0 +1,128 @@
+body 
+{
+    background:url("1.jpg") repeat-x;
+    background-size: 100% 170%;
+    padding: 0;
+    margin: 0;
+}
+
+h1 
+{
+    text-align: center;
+    color:#FFCCFF;
+}
+
+#show
+{
+    height: 20px ;
+    font-size: 15px ;
+    color:blue;
+}
+
+p 
+{
+    margin-top: 0; 
+    margin-bottom: 0;
+}
+
+.info-panel 
+{
+    position: relative;
+    top:50px ;
+    left: 0; 
+    right: 0; 
+    height:400px ;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 360px;
+    padding: 24px;
+    background-color: transparent;
+    border:solid 5px transparent;
+}
+
+.info-title 
+{
+    border-radius:5px ; 
+    width: inherit;
+    height: 24px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    line-height: 24px;
+}
+
+.info-name 
+{
+    border-radius: 5px ;
+    float: left;
+    color: #CCCCFF;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: inherit;
+}
+
+.info-box 
+{
+    width: inherit;
+    height: 48px;
+}
+
+.info-box p 
+{
+    width: 330px;
+    height: 42px;
+    border-radius: 6px;
+    border: 3px solid #2196F3;
+    font-size: 24px;
+    font-weight: bold;
+    color: #CC99FF;
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 42px;
+}
+
+.log-out-all
+{
+    opacity: 1;
+}
+
+.log-out-box 
+{
+    width: inherit;
+    height: 48px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.log-out-box p 
+{
+    width: 354px;
+    height: 42px;
+    padding: 0; margin: 0;
+    border-radius: 6px;
+    line-height: 42px;
+    border: 3px solid #2196F3;
+    background-color: #2196F3;
+    text-align: center;
+    transition-duration:2s ;
+}
+
+.log-out-box p a 
+{
+    color: white;
+    font-family: sans-serif;
+    font-size: 27px;
+    font-weight: solid;
+    line-height: 42px;
+    text-decoration: none;
+    transition-duration:2s;
+}
+
+.log-out-box p:hover 
+{
+    background-color: white;
+}
+
+.log-out-box p:hover a 
+{
+    color: #2196F3;
+}

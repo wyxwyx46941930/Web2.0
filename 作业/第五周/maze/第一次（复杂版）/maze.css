@@ -1,0 +1,301 @@
+body
+{
+  cursor: default;
+}
+
+.title , .instruction , .result-description
+{
+  text-align: center ;
+}
+
+.instruction , .result-description
+{
+  font-weight: normal;
+}
+
+.result-description
+{
+  height: 40px ;
+  margin: 10px auto ;
+  opacity: 0 ;
+}
+
+.result-description.show
+{
+  opacity: 1 ;
+  transition-duration: 0.5s ;
+}
+
+.maze-wrapper
+{
+  margin: 10px auto ;
+}
+
+.maze-wrapper .wall-area
+{
+  width: 500px ;
+  height: 360px ;
+  margin: 0 auto ;
+  border: 1px solid black ;
+  position: relative ;
+  background-color: #DDDDDD ;
+}
+
+.maze-wrapper .wall-area.playing
+{
+  cursor:pointer;
+}
+
+.maze-wrapper .wall-area .way
+{
+  position: absolute; 
+  padding-top:  2px ;
+  border-top: 1px solid  #706f70 ;
+  border-bottom: 1px solid  #706f70 ;
+  background-color: white ;
+  height:  45px ;
+  width:  199px ;
+}
+
+.maze-wrapper .wall-area .way:nth-of-type(even)
+{
+  transform: rotate(-90deg);
+  transform-origin:left bottom;
+}
+
+.maze-wrapper .wall-area .way .block
+{
+  height: 41px ;
+  width:  41px ;
+  display:  inline-block;
+  font-size:  33px ;
+  text-align: center; 
+  line-height: 43px ;
+}
+
+.maze-wrapper .wall-area .way .block.start-block
+{
+  border :1px solid gray;
+  background-color: #92ff8e ;
+}
+
+.maze-wrapper .wall-area .way .block.end-block 
+{
+  border: 1px solid gray;
+  background-color: #8980fa;
+}
+
+.maze-wrapper .wall-area .way .block.line-cover 
+{
+  height: 5px;
+  width: 47px;
+  position: absolute;
+  background-color: white ;
+}  
+
+.maze-wrapper .wall-area .way.way-1 {
+  left: -1px;
+  top: 270px;
+  z-index: 2;
+  text-align: left;
+}
+
+.maze-wrapper .wall-area .way.way-1 .line-cover
+{
+  left :152px ;
+  top : -2px ;
+}
+
+
+.maze-wrapper .wall-area .way.way-2 
+{
+  left: 198.6px;
+  top: 270px;
+  z-index: 1 ;
+}
+
+.maze-wrapper .wall-area .way.way-3 
+{
+  left: 150.4px;
+  top: 119px;
+  z-index: 2;
+}
+
+
+.maze-wrapper .wall-area .way.way-3 .line-cover 
+{
+  top: 47px;
+}
+
+.maze-wrapper .wall-area .way.way-3 .line-cover-right 
+{
+  left: 151.6px;
+}
+
+
+.maze-wrapper .wall-area .way.way-4 
+{
+  left: 350.3px;
+  top: 270px;
+  z-index: 1;
+}
+
+
+.maze-wrapper .wall-area .way.way-5 
+{
+  left: 303.3px;
+  top: 270px;
+  z-index: 2;
+  text-align: right;
+}
+
+.maze-wrapper .wall-area .way.way-5 .line-cover 
+{
+  right: 152.6px;
+  top: -2px;
+}
+
+.maze-wrapper .wall-area .wall-block 
+{
+  position: absolute;
+}
+
+.maze-wrapper .wall-area .wall-block.hovered 
+{
+  background-color: red;
+}
+
+.maze-wrapper .wall-area .wall-block.wall-block-1 {
+  left: 0;
+  top: 0;
+  width: 150.6px;
+  height: 121.3px;
+}
+
+.maze-wrapper .wall-area .wall-block.wall-block-2 
+{
+  left: 349.3px;
+  top: 0;
+  width: 151.6px;
+  height: 122.3px;
+}
+
+.maze-wrapper .wall-area .wall-block.wall-block-3 
+{
+  left: 149.6px;
+  top: 0;
+  width: 200.6px;
+  height: 130.3px;
+}
+
+.maze-wrapper .wall-area .wall-block.wall-block-4 
+{
+  left: 0;
+  top: 119.8px;
+  width: 155.6px;
+  height: 151.6px;
+}
+
+.maze-wrapper .wall-area .wall-block.wall-block-5 
+{
+  left: 345.3px;
+  top: 119.8px;
+  width: 155.6px;
+  height: 151.6px;
+}
+
+.maze-wrapper .wall-area .wall-block.wall-block-6 
+{
+  left: 152.7px;
+  top: 165.3px;
+  width: 197.6px;
+  height: 153.9px;
+}
+
+.maze-wrapper .wall-area .wall-block.wall-block-7 
+{
+  left: 0;
+  top: 317px;
+  width: 199.6px;
+  height: 43px;
+}
+
+.maze-wrapper .wall-area .wall-block.wall-block-8 
+{
+  left: 301.3px;
+  top: 317px;
+  width: 199.6px;
+  height: 43px;
+}
+
+.maze-wrapper .wall-area .wall-block.wall-block-9 
+{
+  left: 196.68px;
+  top: 317px;
+  width: 105.6px;
+  height: 43px;
+}
+
+.maze-objective 
+{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.maze-objective .wall-demo-wrapper 
+{
+  text-align: center;
+  margin: 10px auto;
+}
+
+.maze-objective .wall-demo-wrapper .wall-demo 
+{
+  height: 30px;
+  width: 100px;
+  display: inline-block;
+  border: 1px solid black;
+  background-color: #DDDDDD;
+}
+
+/*
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Maze!</title>
+    <link rel="stylesheet" href="maze.css">
+  </head>
+  <body>
+    <h1 class="title">The Amazing Mouse Maze!</h1>
+    <h2 class="instruction">Move your mouse over the "S" to begin.</h2>
+    <h2 class="result-description">You Win</h2>
+    <div class="maze-wrapper">
+        <div class="wall-area">
+          <div class="way way-1">
+            <div class="block start-block">S</div>
+            <div class="block line-cover"></div>
+          </div>
+          <div class="way way-2"></div>
+          <div class="way way-3">
+            <div class="block line-cover line-cover-left"></div>
+            <div class="block line-cover line-cover-right"></div>
+          </div>
+          <div class="way way-4"></div>
+          <div class="way way-5">
+            <div class="block end-block">E</div>
+            <div class="block line-cover"></div>
+          </div>
+        </div>
+      </div>
+      <div class="maze-objective">
+        The object of this game is to guide the mouse cursor through the start area
+        and get to the end area. Be sure to avoid the walls:
+        <div class="wall-demo-wrapper">
+          <div class="wall-demo"></div>
+        </div>
+        Good luck!
+      </div>
+      <script src="maze.js"></script>
+  </body>
+</html>
+*/

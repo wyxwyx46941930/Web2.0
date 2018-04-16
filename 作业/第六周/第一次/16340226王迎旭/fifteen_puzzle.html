@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>简单拼图游戏</title>
+        <link rel = "stylesheet" href = "fifteen_puzzle.css" >
+        <script type = "text/javascript" src = "fifteen_puzzle.js"></script>
+    </head>
+    <body>
+        <h1>SImple Jigsaw Puzzle</h1>
+        <div id = "info">
+            <div id = "Time">
+                <div class = "right">Time:</div>
+                <input type = "text" value = "00:00:00" id = "time" onfocus="blur()">
+            </div>
+            <div id = "Step">
+                <div class = "left">Step:</div>
+                <input type = "text" value = "0" id = "step" onfocus="blur()">
+            </div>
+        </div>
+        <div id = "whole">
+            <div id = "result"></div>
+            <div id = "picture"></div>
+        </div>
+        <div class = "divide">
+            <div id="restart">Start</div>
+            <div id="change_image">Help</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+.center
+{
+    text-align: center ;
+}
+
+.whole
+{
+    margin-left: 75px  ;
+}
+
+#instructions
+{
+    margin: 20px auto ;
+    width: 650px ;
+}
+
+#untitled
+{
+    margin: 5px auto ;
+    width: 800px ;
+    font-weight: bold ;
+}
+
+.right
+{
+    float: right ;
+    margin-right:5px;
+}
+
+#info
+{
+    width: 320px ;
+    height:60px ;
+    margin: 10px auto ;
+}
+
+#Time , #Score
+{
+    width: 120px ;
+    float: right ;   
+}
+
+#time , #score
+{
+    float: right ;
+    height: 14px ;
+    width: 50px ;
+}
+
+#Score
+{
+    margin-top: 10px ;
+}
+
+#show
+{
+    margin-top: 10px ;
+    float: left ;
+    width: 130px ;
+}
+
+hr
+{
+    width: 330px; 
+}
+
+
+#main
+{
+    margin: 10px auto ;
+    width: 320px ;
+    height: 160px ;
+}
+
+input[type="radio"] {
+    margin: 0px 0px 10px 13px;
+}

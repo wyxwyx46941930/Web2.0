@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Maze!</title>
+    <link rel="stylesheet" href="maze.css">
+  </head>
+  <body>
+    <h1 class="title">The Amazing Mouse Maze!</h1>
+    <h2 class="instruction">Move your mouse over the "S" to begin.</h2>
+    <h2 class="result-description">You Win</h2>
+    <div class="maze-wrapper">
+        <div class="wall-area">
+          <div class="way way-1">
+            <div class="block start-block">S</div>
+            <div class="block line-cover"></div>
+          </div>
+          <div class="way way-2"></div>
+          <div class="way way-3">
+            <div class="block line-cover line-cover-left"></div>
+            <div class="block line-cover line-cover-right"></div>
+          </div>
+          <div class="way way-4"></div>
+          <div class="way way-5">
+            <div class="block end-block">E</div>
+            <div class="block line-cover"></div>
+          </div>
+        </div>
+    </div>
+    <div class="maze-objective">
+        The object of this game is to guide the mouse cursor through the start area<br>
+        and get to the end area. Be sure to avoid the walls:
+        <div class="wall-demo-wrapper">
+          <div class="wall-demo"></div>
+        </div>
+        Good luck!
+    </div>
+    <script src="maze.js"></script>
+  </body>
+</html>

@@ -1,0 +1,374 @@
+body
+{
+    background: url("6.jpg") repeat-x;
+    background-size: 100% 120%;
+}
+h1
+{
+    text-align: center ;
+    color: #CC99FF ;
+    font-size: 30px ;
+    font-family: Arial ;
+}
+#info
+{
+
+    width: 150px ;
+    height: 75px ;
+    margin: 0px auto ;
+    position: relative;
+}
+#right
+{
+    position: relative;
+    left:-5px ;
+}
+#Step,#Time
+{
+    color:#CC00FF;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+}
+#time
+{
+    color: #CC33CC;
+    background: transparent; 
+    text-align: center ;
+    border-radius: 15px ;
+    width: 100px ;
+    position: relative;
+    left:calc(50%);
+    top:-38px;
+    font-size: 18px ;
+    border: 0px ;
+}
+#step
+{
+    color:#CC33CC;
+    background:transparent; 
+    border-radius: 15px ;
+    text-align: center ;
+    width: 100px ;
+    position: relative;
+    left:calc(50%);
+    top:-38px;
+    font-size: 18px ;
+    border: 0px ;
+}
+#picture, #restart, #result, #change_image {   
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 10px ;
+    text-align: center ;
+}
+#change_image,#restart
+{
+    position: relative;
+    top:45px ;
+}
+#picture
+{
+    border-radius:10px ;
+    border:5px solid #CCCCFF;
+    position: relative;
+    width: 340px ;
+    height: 340px ;
+    top:20px;
+    bottom: -50px;
+}
+.picture_part0{
+    float: left;
+    border: solid 1px #969696;
+    opacity: 0.9;
+}
+
+#result
+{
+    color: #CC00FF;
+    border: 5px solid #CCCCFF; 
+    border-radius:15px ;
+    position: relative;
+    top:7px;
+    width: 350px ;
+    height:22px;
+}
+#restart, #change_image {
+    border-radius: 15px ;
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #CC99FF;
+    color: white;
+    font-size: 18px;
+    opacity:0.7;
+}
+.picture_part0 
+{
+    background: url("7.jpg") no-repeat;
+    background-size: 400% 400% ;
+}
+#restart:hover, #change_image:hover 
+{
+    opacity: 1;
+}
+#_position_1 
+{
+    background-position: 0px 0px;
+}
+
+#_position_2 
+{
+    background-position: -85px 0px; 
+}
+
+#_position_3 
+{
+    background-position: -170px 0px;
+}
+
+#_position_4 
+{
+    background-position: -255px 0px; 
+}
+
+#_position_5 
+{
+    background-position: 0px -85px;
+}
+
+#_position_6 
+{
+    background-position: -85px -85px; 
+}
+
+#_position_7 
+{
+    background-position: -170px -85px;
+}
+
+#_position_8 
+{
+    background-position: -255px -85px; 
+}
+
+#_position_9 
+{
+    background-position: 0px -170px;
+}
+
+#_position_10 
+{
+    background-position: -85px -170px; 
+}
+
+#_position_11 
+{
+    background-position: -170px -170px;
+}
+
+#_position_12 
+{
+    background-position: -255px -170px; 
+}
+
+#_position_13 
+{
+    background-position: 0px -255px;
+}
+
+#_position_14 
+{
+    background-position: -85px -255px; 
+}
+
+#_position_15 
+{
+    background-position: -170px -255px;
+}
+
+#_position_16 
+{
+    background-position: -255px -255px; 
+}
+#_position_1:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+#_position_2:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+#_position_3:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+#_position_4:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+#_position_5:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+#_position_6:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+#_position_7:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+#_position_8:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+#_position_9:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+#_position_10:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+#_position_11:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+#_position_12:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}#_position_13:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}#_position_14:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+#_position_15:hover 
+{
+    transform: scale(1.05);
+    transition: all 250ms;
+}
+.position_1 
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_2 
+{
+
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+
+}
+.position_3 
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_4 
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_5 
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_6 
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_7 
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_8 
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_9 
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_10 
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_11 
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_12 
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_13 
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_14 
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_15
+{
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.position_16
+{
+    opacity: 0;
+    background-image: none;
+    height: 83px;
+    width: 83px;
+    display: inline-block;
+}
+.divide
+{
+    position: relative;
+    top:20px;
+}
